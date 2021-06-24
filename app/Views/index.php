@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include('_head.php');?>
+  <?php include('_head.php');?>
 	<body>
-	<!-- Preloader -->
+	  <!-- Preloader -->
 		<?php include('_preloader.php');?>
 		<div class="container">
 			<!-- Header -->
