@@ -1,7 +1,7 @@
 <head>
 	<!-- Basic -->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>CJ Amanambu</title>
+	<title>CJ Amanambu<?=$title?></title>
 	<meta name="description" content="CJ Amanambu is a software engineer based in Abuja that delivers highly accessible web solution.">
 	<meta name="keywords" content="Software Engineer, Software Developer, Abuja, Nigeria, CJ Amanambu">
 	<!-- Mobile Specific Metas -->
