@@ -598,43 +598,44 @@ blockquote {
 /* Animations */
 /* Glitch Animations */
 @media (min-width: 580px) {
-	.glitch-effect,
-	.glitch-effect-white {
-		position: relative;
-	}
 
-	.glitch-effect:before,
-	.glitch-effect:after,
-	.glitch-effect-white:before,
-	.glitch-effect-white:after {
-		content: attr(data-text);
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		background: #ffffff;
-		clip: rect(0, 0, 0, 0);
-	}
 
-	.glitch-effect-white:before,
-	.glitch-effect-white:after {
-		background: #f26b38;
-	}
+}
+.glitch-effect,
+.glitch-effect-white {
+	position: relative;
+}
 
-	.glitch-effect:after,
-	.glitch-effect-white:after {
-		left: 2px;
-		text-shadow: -1px 0 #f26b38;
-		animation: glitch-1 2s infinite linear alternate-reverse;
-	}
+.glitch-effect:before,
+.glitch-effect:after,
+.glitch-effect-white:before,
+.glitch-effect-white:after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #ffffff;
+	clip: rect(0, 0, 0, 0);
+}
 
-	.glitch-effect:before,
-	.glitch-effect-white:before {
-		left: -2px;
-		text-shadow: 2px 0 #f26b38;
-		animation: glitch-2 2s infinite linear alternate-reverse;
-	}
+.glitch-effect-white:before,
+.glitch-effect-white:after {
+	background: #f26b38;
+}
 
+.glitch-effect:after,
+.glitch-effect-white:after {
+	left: 2px;
+	text-shadow: -1px 0 #f26b38;
+	animation: glitch-1 2s infinite linear alternate-reverse;
+}
+
+.glitch-effect:before,
+.glitch-effect-white:before {
+	left: -2px;
+	text-shadow: 2px 0 #f26b38;
+	animation: glitch-2 2s infinite linear alternate-reverse;
 }
 
 @keyframes glitch-1 {
