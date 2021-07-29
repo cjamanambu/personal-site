@@ -16,8 +16,11 @@
 							<div class="started-content">
 								<div class="h-title glitch-effect" data-text="CJ Amanambu">CJ Amanambu</div>
 								<div class="h-subtitle typing-subtitle">
-									<p>Software Engineer.</p>
+									<p>Software Developer.</p>
 									<p>Based in Abuja.</p>
+									<p>Website Development.</p>
+									<p>Web & Desktop Native Solutions.</p>
+									<p>Public & Private Cloud Services.</p>
 								</div>
 								<span class="typed-subtitle"></span>
 							</div>
